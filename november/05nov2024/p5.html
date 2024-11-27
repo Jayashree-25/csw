@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					$("#p2").remove();
+				})
+				$("#b1").click(function(){
+					$("#p3").remove();
+				})
+
+				$("#b2").click(function(){
+					$("div").empty();
+				})
+			})
+		</script>
+		<style>
+			#p2,#p3{
+				color:green;
+			}
+			div{
+				border: 2px solid black;
+				height: 100px;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<p id="p1">Jayashree</p>
+		<p id="p2">8260801312</p>
+		<p id="p3">dasjayashree@gmail.com</p>
+		<div>
+			2341004082
+		</div>
+		<br>
+		<button id="b1">remove</button>
+		<button id="b2">empty</button>
+	</body>
+</html>

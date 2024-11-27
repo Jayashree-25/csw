@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					$("#p1").append(" Das");
+				})
+				$("#b1").click(function(){
+					$("#list").append("<li>jQuery</li>");
+				})
+				$("#b2").click(function(){
+					$("#p1").prepend("Hemloo... ");
+				})
+				$("#b2").click(function(){
+					$("#list").prepend("<li>CSW</li>");
+				})
+
+			})
+		</script>
+	
+	</head>
+	<body>
+		<p id="p1">Jayashree</p>
+		<p>Number of subjects</p>
+		<ol id="list">
+			<li>Introduction</li>
+			<li>Diagram</li>
+			<li>Html</li>
+			<li>Css</li>
+		</ol>
+		<button id="b1">append</button>
+		<button id="b2">prepend</button>
+	</body>
+</html>
