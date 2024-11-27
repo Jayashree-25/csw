@@ -1,0 +1,83 @@
+
+#a{
+ outline-style: outset;
+ outline-width: 4px;
+}
+#b{
+ outline-style: inset;
+ outline-width: 4px;
+}
+#c{
+ outline-style: solid;
+ outline-width: 4px;
+}
+#d{
+ outline-style: ridge;
+ outline-width: 4px;
+}
+#e{
+ outline-style: groove;
+ outline-width: 4px;
+}
+#f{
+ outline-style: dotted;
+}
+#g{
+ outline-style: dashed;
+}
+#h{
+ outline-style: hidden;
+}
+#i{
+ outline-style: none;
+}
+#j{
+ outline-style: double;
+}
+
+#text{
+ outline-style: inset;
+padding: 5px;
+}
+*#text{
+color:green;
+}
+#x{
+ text-align: center;
+ text-decoration: overline;
+ text-transform: lowercase;
+ text-indent: 50px;
+}
+#y{
+ text-align: left;
+ text-decoration: underline;
+ text-transform: uppercase;
+ letter-spacing: 4px;
+ text-indent: 50px;
+}
+#z{
+ text-align: right;
+ text-decoration: line-through;
+ text-transform: capitalize;
+}
+
+#para{
+ text-transform: Capitalize;
+ letter-spacing: 2px;
+ text-indent: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
