@@ -1,0 +1,29 @@
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(
+			function () {
+				$("#a").click(function () {
+					$("h1").hide();
+				})
+				$("#b").click(function () {
+					$("h1").show();
+				})
+
+			}
+		)
+
+	</script>
+
+</head>
+
+<body>
+	<h1>JQuery</h1>
+	<p>Hello World</p>
+	<button id="a">Hide</button>
+	<button id="b">Show</button>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+#a{
+position: static;
+}
+#b{
+position: absolute;
+}
+#c{
+position: fixed;
+}
+#d{
+position: relative;
+}
+#e{
+position: sticky;
+}
+div{
+ border: 1px solid black;
+}

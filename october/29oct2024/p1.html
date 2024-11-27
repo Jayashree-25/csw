@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="p1.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					$("#div1").fadeIn();
+					$("#div2").fadeIn("slow");
+					$("#div3").fadeIn(2000);
+				});				
+				$("#b2").click(function(){
+					$("#div1").fadeOut();
+					$("#div2").fadeOut("fast");
+					$("#div3").fadeOut(2000);
+				});
+				$("#b3").click(function(){
+					$("#div1").fadeToggle();
+					$("#div2").fadeToggle("slow");
+					$("#div3").fadeToggle(2000);
+				});
+				$("#b4").click(function(){
+					$("#div1").fadeTo("fast",0.45);
+					$("#div2").fadeTo("slow", 0.65);
+					$("#div3").fadeTo(2000, 0.70);
+				});
+				$("#b5").click(function(){
+					$("#div1").fadeTo("fast",1);
+					$("#div2").fadeTo("slow", 1);
+					$("#div3").fadeTo(2000, 1);
+				});
+
+
+			});
+		</script>
+	</head>
+	<body>
+		<div id="div1">
+			Hello
+		</div>
+		<br>
+		<div id="div2">
+			Hemloo
+		</div>
+		<br>
+		<div id="div3">
+			Byeeeee
+		</div>
+		
+		<button id="b1">CLICK1</button>
+		<button id="b2">CLICK2</button>
+		<button id="b3">Toggle</button>
+		<button id="b4">Opacity</button>
+		<button id="b5">Back</button>
+
+
+	</body>
+</html>

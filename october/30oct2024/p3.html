@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<style>
+		#pg1 {
+			height: 200px;
+			width: 310px;
+			border: 1px solid black;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			b1 = $("#b1")
+			b1.click(function () {
+				$("#pg1").animate({
+					fontSize: "20px",
+				}, function () {
+					$(this).css("color", "green").slideUp(2 000).slideDown(2000)
+				}, funcion(){
+					alert("all animation is over");
+				})
+
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="pg1" style="position: relative;">
+		<h1>Hello hiii byeeee sleep</h1>
+	</div>
+	<br>
+	<button id="b1">Animate</button>
+</body>
+
+</html>

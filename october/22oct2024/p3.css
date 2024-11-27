@@ -1,0 +1,9 @@
+div{
+ width: 300px;
+}
+img{
+  width: 150px;
+}
+div:hover{
+   color: red;
+}

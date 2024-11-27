@@ -1,0 +1,15 @@
+#horizontal{
+ position: relative;
+ background-color: red; 
+}
+ul{
+ display: flex;
+ list-style-type: none;
+}
+ul a{
+ text-decoration: none;
+ padding: 4px;
+}
+ul a:hover{
+ background-color: gray;
+}

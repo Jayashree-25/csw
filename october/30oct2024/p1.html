@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<style>
+			#pg1{
+				height: 100px;
+				width: 100px;
+				border: 1px solid black;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					//$("#pg1").animate({
+						//left: "200px",
+						//opacity: "0.4",
+						//height: "300px",
+						//width: "300px"
+					//});
+
+					$("#pg1").animate({									height: "toggle",
+						
+					});
+
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="pg1" style="position: relative;">
+			Hello hiii byeeee sleep
+		</div>
+		<br>
+		<button id="b1">Animate</button>
+	</body>
+</html>

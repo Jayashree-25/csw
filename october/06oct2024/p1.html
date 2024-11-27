@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<style>
+			div{
+				border: 2px solid black;
+				padding: 10px;
+				margin: 10px:
+				height: fill-content;
+			}
+			p{
+				border: 2px solid black;
+			}
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#p4").prevUntil("#p2").css({"border":"2px solid red"})
+				
+			})
+
+		</script>
+			
+	</head>
+	<body>
+		<div id="div1">
+			great great grandparent1
+
+			<div id="div2">
+				great grandparent2
+
+				<div id="div3">
+					grandparent3
+					
+					<div id="div4">
+						parent4
+						<p id="p1">child1</p>
+						<p id="p2">child2</p>
+						<p id="p3">child3</p>
+						<p id="p4">child4</p>
+					</div>
+
+				</div>
+					
+			</div>
+			
+			
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<style>
+			
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				//$("p").first().css("color","red");
+				//$("p").last().css("color","red");
+				//$("p").eq(2).css("color","red");
+				//$("p").not(".blue").css("color","red");
+				$("p").filter(".green").css("color","red");			
+			})
+		</script>
+			
+	</head>
+	<body>
+		<h1>Jayashree Das</h1>
+		<p class="red">Para0</p>
+		<p class="red">Para1</p>
+		<p class="green">Para2</p>
+		<p class="green">Para3</p>
+		<p class="blue">Para4</p>
+	</body>
+</html>

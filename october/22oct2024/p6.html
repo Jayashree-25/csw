@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(
+			function () {
+				$("#a").click(function () {
+					$("h1").hide();
+				})
+				$("#b").click(function () {
+					$("h1").show();
+				})
+				$("#c").click(function () {
+					$("h1").toggle();
+				})
+				$("p").dblclick(function(){
+					$("h1").hide();
+				})
+				$("#a").mouseenter(function () {
+					alert("mouse enter");
+				})
+				$("#a").mouseleave(function () {
+					alert("mouse leave");
+				})
+
+
+			}
+		)
+
+	</script>
+
+</head>
+
+<body>
+	<h1>JQuery</h1>
+	<p>Hello World</p>
+	<button id="a">Hide</button>
+	<button id="b">Show</button>
+	<button id="c">Toggle</button>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+div{
+  overflow-x: auto;
+  border: 2px solid black;
+}
+table{
+  border-collapse: collapse;
+}
+tr:nth-child(even){background-color: aqua;}

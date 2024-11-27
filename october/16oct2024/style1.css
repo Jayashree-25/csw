@@ -1,0 +1,18 @@
+a:link{
+ color:red;
+}
+a:visited{
+ color: green;
+}
+a:hover{
+ color: yellow;
+}
+a:active{
+ color: pink;
+}
+ul{
+ list-style-type: none;
+}
+div{
+ border: 2px solid black;
+}

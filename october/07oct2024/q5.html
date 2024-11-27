@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					$("ul")
+.append("<li>CSS</li>")
+.prepend("<li>Introduction to fullStack development</li>")
+.after("<p>Topic updated</p>")
+.before("<h3>List of topic covered</h3>")
+				})
+										
+			})
+		</script>
+			
+	</head>
+	<body>
+		<ul>
+			<li>getting started with FullStack</li>
+			<li>html</li>
+			<li>css</li>
+		</ul>
+		<button id="b1">edit</button>
+		
+	</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+   display: flex;
+   
+}
+#container{
+  width: 400px;
+  height: fit-content;
+  padding: 20px;
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid black;
+}
+#container img{
+   width: 400px;
+ }
