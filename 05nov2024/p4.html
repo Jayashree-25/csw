@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					$("#img").after("cat");
+				})
+				$("#b2").click(function(){
+					$("#img").before("google.com");
+				})
+			})
+		</script>
+	
+	</head>
+	<body>
+		<img id="img" src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" height="200px">
+		<br>
+		<br>
+		
+		<button id="b1">after</button>
+		<button id="b2">before </button>
+	</body>
+</html>
