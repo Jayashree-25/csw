@@ -10,14 +10,32 @@
     </script>
     <style>
         #page1 {
-            height: 60%;
-            width: 70%;
-            background-color: aliceblue;
+            /* background-color: aliceblue; */
             overflow: hidden;
+            position: realtive;
         }
-        #page2{
-            max-height: 400px;
+
+        #page2 {
+            width: 15%;
+            max-height: 80vh;
             overflow-y: auto;
+        }
+
+        #heading {
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            margin-left: 18%;
+            width: 70%;
+        }
+
+        #pag {
+            display: flex;
+            justify-content: space-between;
+        }
+        .jumbotron{
+            background-color: rgb(165, 238, 214);
         }
     </style>
 </head>
@@ -59,9 +77,35 @@
                 <a href="" class="nav-link text-white">JQUERY</a>
             </li>
         </ul>
+        <div id="heading">
+            <h1>HTML TUTORIAL</h1>
+
+            <ul id="pag" class="pagination">
+                <li class="page-item">
+                    <a href="" class="page-link bg-success text-white">
+                        < Home</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link bg-success text-white">Next > </a>
+                </li>
+            </ul>
+
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <p>HTML is the standard markup language for web pages</p>
+                    <p>with HTML you can create your own Website.</p>
+                    <p>HTML is easy to learn. You will enjoy it!</p>
+                    <br>
+                    <button type="button" class="btn btn-success">Study our free HTML Tutorial</button>
+                </div>
+                <br>
+                <br>
+                <h2>Easy Learning with HTML "Try it Yourself"</h2>
+            </div>
+        </div>
 
         <div id="page2">
-            <ul class="nav flex-column bg-secondary text-white" style="width: 15%">
+            <ul class="nav flex-column bg-secondary text-white">
                 <h4>HTML tutorial</h4>
                 <li class="nav-item">
                     <a href="#" class="nav-link active bg-success text-white">HTML home</a>
@@ -94,10 +138,30 @@
                     <a href="#" class="nav-link text-white">HTML tags</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HTML comment</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HTML styles</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HTML css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HTML css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HTML css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">HTML css</a>
+                </li>
+                <li class="nav-item">
                     <a href="#" class="nav-link text-white">HTML css</a>
                 </li>
             </ul>
         </div>
     </div>
+
 </body>
+
 </html>
